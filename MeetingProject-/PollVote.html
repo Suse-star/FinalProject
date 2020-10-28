@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- STYLE CSS -->
+    <link rel="stylesheet" href="design_files/css/style.css">
+
+    <script src="https://www.gstatic.com/firebasejs/7.21.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.21.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.21.0/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.21.0/firebase-storage.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.21.0/firebase-firestore.js"></script>
+
+    <title>PollVote</title>
+    <script language="javascript">
+    function emailCurrentPage(){<!--from w ww .  j  a v  a 2 s. c  o m-->
+        window.location.href="mailto:?subject="+document.title+"&body="+escape(window.location.href);
+    }
+    </script>
+</head>
+<body >
+     <!-- Salvando el semestre - Youtube Channel -->
+
+<div class="wrapper" style="background-image: url('design_files/images/poll.jpg')">
+        <div class="container mt-3">
+            <div class="row justify-content-md-center" >
+                <div class="col-md-auto ">
+                    <div  style="height: 500px; width: 900px;">
+                        <canvas id="chart" ></canvas>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-md-center" >
+                <div class="col-md-auto text-center">
+                    <button id="btn1" type="button" class="btn btn-danger btn-lg">0</button>
+                    <button id="btn2" type="button" class="btn btn-primary btn-lg">0</button>
+                    <button id="btn3" type="button" class="text-white btn btn-warning btn-lg">0</button>
+                    <h3 class="mt-4 text-white">Welcome again for Voting</h3>
+                    <div class="w-full text-center" style="margin-top: 5%; font-size: 20px;">
+                        <a href="MainPage.html" class="text-blue">
+                            Click here to go back to make sure for voting right time for the meeting!
+                        </a>
+
+                    </div>
+                    <div class="w-full text-center" style="margin-top: 8%; font-size: 20px;">
+                        <a href="javascript:emailCurrentPage()" class="text-blue">
+                            Click here for mailing this page to another user 
+                        </a>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+</div>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+<script src="js/PollVote.js"></script>
+
+</body>
+</html>

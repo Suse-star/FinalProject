@@ -1,0 +1,120 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Scheduling</title>
+    <link href="sample/common/samples.css" rel="stylesheet" />
+	<link href="themes/first-theme.css" rel="stylesheet" />
+    <link href="poll.css" rel="stylesheet" />
+
+
+
+</head>
+<header>
+    <nav>
+        <a href="signup.html">Register</a>
+        <a href="signin.html">Login</a>
+        <button id="saveButton">Save to Json</button>
+        <button id="loadButton">Load from Json</button>
+    </nav>
+    <script language="javascript">
+        function emailCurrentPage(){<!--from w ww .  j  a v  a 2 s. c  o m-->
+        window.location.href="mailto:?subject="+document.title+"&body="+escape(window.location.href);
+    }
+</script>
+</header>
+<body>
+    <form id="my-form">
+      <label>
+        link
+        <a href="javascript:emailCurrentPage()">Mail this page!</a>
+      </label>
+      <div id="content" style="top: 70px; bottom: 24px;">
+		<div style="position: absolute; width: 100%; height: 100%;">
+			<div id="calendar" style="height: 90%; width: 50%;"></div>
+		</div>
+
+
+      <!-- <button id="my-form-button">Submit</button>
+      <p id="my-form-status"></p>
+    </form>
+    <nav class="navbar navbar-light bg-light">
+      <span class="navbar-brand mb-0 h1">Vote for which time here</span>
+    </nav>
+    <h1 id="testOutput"> status</h1>
+    <input id = "Date" placeholder="Date" class="form-control">
+    <button id="hi"> Click </button>
+    <button id="hey"> load </button> -->
+
+    <div id="choices" style="top: 70px; bottom: 24px;">
+
+          <div class="choice">
+            <div class="result">
+              <div class="bar" data-choice="1"></div>
+            </div>
+            <div class="label">
+              <p>Meeting time Choice 1</p>
+              <button id = "first- choice" data-choice="1">Vote</button>
+            </div>
+          </div>
+          <div class="choice">
+            <div class="result">
+              <div class="bar" data-choice="2"></div>
+            </div>
+            <div class="label">
+              <p>Meeting time Choice 2</p>
+              <button id = "second- choice" data-choice="2" placeholder="hi">Vote</button>
+            </div>
+          </div>
+          <div class="choice">
+            <div class="result">
+              <div class="bar" data-choice="3"></div>
+            </div>
+            <div class="label">
+              <p>Meeting time Choice 3</p>
+              <button id = "third- choice" data-choice="3">Vote</button>
+            </div>
+          </div>
+
+
+
+
+
+
+
+
+
+
+    <!-- <div id="info" style="top: 60px; bottom: 24px;">
+		<div id="infoTab" style="padding: 10px;">
+			<h1 style="text-align:center"> Welcome to Schedulle a meeting </h1> -->
+
+    <!-- <div id="info" style="top: 60px; bottom: 24px;">
+		<div id="infoTab" style="position: left; width: 100%; height: 100%;">
+
+
+			<h2>
+				About this sample</h2>
+			<p>
+				This is the source code of the tutorial from MindFusion.Scheduling for JavaScript Programmer's Guide
+				and shows how to setup a calendar view, handle events, apply custom CSS styling and serialize
+				the calendar's schedule to and from JSON string.
+			</p>
+		</div>
+	</div> -->
+
+
+
+
+
+
+
+<script src="MindFusion.Scheduling.js" type="text/javascript"></script>
+<script src="js/Scheduling.js" type="text/javascript"></script>
+<script src="poll1.js"></script>
+
+
+
+
+</body>
+
+</html>
