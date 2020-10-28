@@ -12,23 +12,23 @@
 
 # First you need to download the project 
 # then get the folder from the download and put it in desktop or in place that you can reach it from terminal 
-# then open treminal and stand on the folder by cd finalProject 
+# then open treminal and stand on the folder by cd finalProject-main/meetingproject- if you are in the desktop on your terminal which you are directly if you working on mac 
 # now you are in the folder which next step is downloading global http-server type this " npm install http-server -g" 
 # then you will get a port or address
 # then you just need to go to google browser and type localhost:and port that you will get when you install http-server in my case localhost:8080
-# then you will get all the files which you can go directly to signin page by typing clicking on signin.html page
+# then you will get all the files which you can go directly to signin page by clicking on signin.html page
 
 
 # how json file works 
 # create a meeting then click save then on the top of the page there is a save in json file button which you need to click on it so it saves the meeting you created on json file 
-# then you need to get the json file from the download and put it in the finalProject folder.
-# then you can just click on load button so you will get meetings that you created
+# then you need to get the json file from the download and put it in the finalProject-main/meetingproject-  folder with the others files.
+# then next time you visit the app you can just click on load button so you will get meetings that you created
 
-# if you want to send the wep app to another user you just need to click on the mail this page button and send the json file woth the link of the page.
+# if you want to send the wep app to another user you just need to click on the mail this page button and send the json file with the link of the page otherwise you can just send the pollvote page
 
 # if you want to change anything on the code if its html code it does not matter but if it is js file you need to clear the history and browsing data etc. so you can see the changes you made on the code. 
 
-# if you want to logout you need first to clear the history also thats why its easy to open the web app on chrome but it works in all other browsers
+# if you want to logout you need first to clear the history also thats why its easy to open the web app on chrome but it also works in all other browsers
 
 
 
