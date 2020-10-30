@@ -50,14 +50,14 @@ http-server
 ## Run the program
 
 
-```
-GO to Google browser 
-and type this **localhost:8080**
-And then click on **meetingproject-**
-Now you have all files so start 
-BY clicking on **signin.html file**
 
-```
+1. GO to Google browser 
+2. and type this **localhost:8080**
+3. And then click on **meetingproject-**
+4. Now you have all files so start 
+5. BY clicking on **signin.html file**
+
+
 
 <!-- json -->
 ## How to use json file
