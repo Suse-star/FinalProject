@@ -52,10 +52,10 @@ http-server
 
 ```
 GO to Google browser 
-and type this ** localhost:8080 **
-And then click on ** meetingproject- **
+and type this **localhost:8080**
+And then click on **meetingproject-**
 Now you have all files so start 
-BY clicking on ** signin.html file **
+BY clicking on **signin.html file**
 
 ```
 
